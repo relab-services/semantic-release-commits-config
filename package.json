@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergeyzwezdin/semantic-release.git"
+    "url": "git+https://github.com/sergeyzwezdin/semantic-release-config.git"
   },
   "keywords": [
     "semantic-release"
@@ -21,9 +21,9 @@
   "author": "Sergey Zwezdin <sergey@zwezdin.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeyzwezdin/semantic-release/issues"
+    "url": "https://github.com/sergeyzwezdin/semantic-release-config/issues"
   },
-  "homepage": "https://github.com/sergeyzwezdin/semantic-release#readme",
+  "homepage": "https://github.com/sergeyzwezdin/semantic-release-config#readme",
   "publishConfig": {
     "access": "public",
     "provenance": true
