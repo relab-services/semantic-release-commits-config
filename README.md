@@ -13,7 +13,7 @@ This shareable configuration use the following plugins:
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @sergeyzwezdin/semantic-releasesemantic-release-config
+$ npm install --save-dev semantic-release @sergeyzwezdin/semantic-release-config
 ```
 
 ## Usage
