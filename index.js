@@ -6,37 +6,38 @@ module.exports = {
       {
         preset: "conventionalcommits",
         releaseRules: [
+          { "breaking": true, "release": "major" },
           {
-            type: "feat",
-            release: "minor",
+            "type": "feat",
+            "release": "minor"
           },
           {
-            type: "fix",
-            release: "patch",
+            "type": "fix",
+            "release": "patch"
           },
           {
-            type: "chore",
-            release: "patch",
+            "type": "chore",
+            "release": "patch"
           },
           {
-            type: "refactor",
-            release: "patch",
+            "type": "refactor",
+            "release": "patch"
           },
           {
-            type: "docs",
-            release: "patch",
+            "type": "docs",
+            "release": "patch"
           },
           {
-            type: "perf",
-            release: "patch",
+            "type": "perf",
+            "release": "patch"
           },
           {
-            type: "test",
-            release: "patch",
+            "type": "test",
+            "release": "patch"
           },
           {
-            scope: "no-release",
-            release: false,
+            "scope": "no-release",
+            "release": false
           },
         ],
       },
@@ -46,44 +47,42 @@ module.exports = {
       {
         preset: "conventionalcommits",
         presetConfig: {
-          types: [
+          "types": [
             {
-              type: "feat",
-              section: "Features",
+              "type": "feat",
+              "section": "Features"
             },
             {
-              type: "fix",
-              section: "Fixes",
+              "type": "fix",
+              "section": "Fixes"
             },
             {
-              type: "chore",
-              section: "Other",
+              "type": "chore",
+              "section": "Other"
             },
             {
-              type: "docs",
-              section: "Documentation",
+              "type": "docs",
+              "section": "Documentation"
             },
             {
-              type: "style",
-              section: "UI",
+              "type": "style",
+              "section": "UI"
             },
             {
-              type: "refactor",
-              section: "Refactoring",
+              "type": "refactor",
+              "section": "Refactoring"
             },
             {
-              type: "perf",
-              section: "Performance Improvements",
+              "type": "perf",
+              "section": "Performance Improvements"
             },
             {
-              type: "test",
-              section: "Testing",
+              "type": "test",
+              "section": "Testing"
             },
           ],
         },
       },
     ],
-    "@semantic-release/npm",
-    "@semantic-release/github",
   ],
 };
