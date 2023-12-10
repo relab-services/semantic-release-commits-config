@@ -1,7 +1,7 @@
 {
-  "name": "@sergeyzwezdin/semantic-release-config",
+  "name": "@sergeyzwezdin/semantic-release-commits-config",
   "version": "0.0.0-development",
-  "description": "semantic-release shareable config.",
+  "description": "semantic-release shareable config defines standards for commit name conventions",
   "main": "index.js",
   "files": [
     "index.js"

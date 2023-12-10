@@ -1,6 +1,6 @@
-# @sergeyzwezdin/semantic-release-config
+# @sergeyzwezdin/semantic-release-commits-config
 
-[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config.
+[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config defines standards for commit name conventions.
 
 ## Plugins
 
@@ -8,22 +8,37 @@ This shareable configuration use the following plugins:
 
 - [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
 - [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
-- [`@semantic-release/github`](https://github.com/semantic-release/github)
 
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @sergeyzwezdin/semantic-release-config
+$ npm install --save-dev semantic-release @sergeyzwezdin/semantic-release-commits-config
 ```
 
 ## Usage
 
 The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
 
+**package.json**:
+
 ```json
 {
-  "extends": "@sergeyzwezdin/semantic-release-config"
+  "extends": "@sergeyzwezdin/semantic-release-commits-config"
 }
+```
+
+**.release.rc.js**:
+
+```javascript
+const common = require('@sergeyzwezdin/semantic-release-commits-config');
+
+module.exports = {
+  ...common,
+  plugins: [
+    ...common.plugins,
+    /* your plugins here */
+  ]
+};
 ```
 
 ## Configuration
