@@ -6,8 +6,8 @@
 
 This shareable configuration use the following plugins:
 
-- [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
-- [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
+-   [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
+-   [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
 
 ## Install
 
@@ -23,22 +23,22 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-  "extends": "@sergeyzwezdin/semantic-release-commits-config"
+    "extends": "@sergeyzwezdin/semantic-release-commits-config"
 }
 ```
 
 **.release.rc.js**:
 
 ```javascript
-const common = require('@sergeyzwezdin/semantic-release-commits-config');
+const common = require('@sergeyzwezdin/semantic-release-commits-config')
 
 module.exports = {
-  ...common,
-  plugins: [
-    ...common.plugins,
-    /* your plugins here */
-  ]
-};
+    ...common,
+    plugins: [
+        ...common.plugins,
+        /* your plugins here */
+    ],
+}
 ```
 
 ## Configuration
