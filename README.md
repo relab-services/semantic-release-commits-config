@@ -1,4 +1,4 @@
-# @sergeyzwezdin/semantic-release-commits-config
+# @relab/semantic-release-commits-config
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config defines standards for commit name conventions.
 
