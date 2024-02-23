@@ -17,7 +17,7 @@ module.exports = {
                     },
                     {
                         type: 'chore',
-                        release: 'patch',
+                        release: false,
                     },
                     {
                         type: 'refactor',
