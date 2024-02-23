@@ -12,7 +12,7 @@ This shareable configuration use the following plugins:
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @sergeyzwezdin/semantic-release-commits-config
+$ npm install --save-dev semantic-release @relab/semantic-release-commits-config
 ```
 
 ## Usage
@@ -23,14 +23,14 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-    "extends": "@sergeyzwezdin/semantic-release-commits-config"
+    "extends": "@relab/semantic-release-commits-config"
 }
 ```
 
 **.release.rc.js**:
 
 ```javascript
-const common = require('@sergeyzwezdin/semantic-release-commits-config')
+const common = require('@relab/semantic-release-commits-config')
 
 module.exports = {
     ...common,
